@@ -11,6 +11,12 @@ const inter = Inter({
   display: "swap",
 });
 
+const count_integer = Inter({
+  subset: ["latin"],
+  variable: "--font-inter-",
+  display: "swap"
+})
+
 const nacelle = localFont({
   src: [
     {
